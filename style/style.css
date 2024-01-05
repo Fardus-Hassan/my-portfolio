@@ -159,17 +159,48 @@ main {
     padding: 130px 155px;
 }
 
-.about-dec{
+.about-dec {
     margin-bottom: 30px;
 }
 
-.about-info{
+.about-info {
     display: flex;
     align-items: center;
     justify-content: space-around;
- 
+
 }
 
-section{
+section {
     margin-bottom: 130px;
+}
+
+/* what i do */
+
+.skill-info {
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow:6px 6px 50px 0px rgba(0, 0, 0, 0.445);
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.skill-dec {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.skill-name {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 28px 0 20px;
 }
