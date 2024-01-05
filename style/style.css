@@ -153,6 +153,8 @@ main {
     padding: 0 230px;
 }
 
+/* about section */
+
 .about-sec {
     border-radius: 10px;
     background: #FFF8F3;
@@ -166,12 +168,28 @@ main {
 .about-info {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 
 }
 
 section {
     margin-bottom: 130px;
+}
+
+.about-sec .about-info .info>p {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-sec .about-info .info>h4 {
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
 
 /* what i do */
@@ -180,7 +198,7 @@ section {
     padding: 33px;
     border-radius: 5px;
     background: #FFF;
-    box-shadow:6px 6px 50px 0px rgba(0, 0, 0, 0.445);
+    box-shadow: 6px 6px 50px -5px rgba(0, 0, 0, 0.445);
 }
 
 .skills {
@@ -204,3 +222,6 @@ section {
     font-weight: 700;
     margin: 28px 0 20px;
 }
+
+/* resume */
+
