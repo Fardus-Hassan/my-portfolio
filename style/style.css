@@ -186,7 +186,7 @@ section {
 }
 
 .about-sec .about-info .info>h4 {
-    color:  #474747;
+    color: #474747;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
@@ -225,3 +225,39 @@ section {
 
 /* resume */
 
+.edu-exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 70px;
+}
+
+.deg hr {
+    margin: 30px 0;
+}
+
+.quality {
+    margin-bottom: 30px;
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 110px;
+}
+
+.deg-date {
+    margin: 10px 0 20px 0;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.deg-name {
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-btn{
+    text-align: center;
+}
