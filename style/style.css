@@ -26,6 +26,11 @@ li {
     border-radius: 5px;
 }
 
+.btn-pm:hover {
+    color: #ffffff;
+    background-color: #c75300;
+}
+
 .btn-download {
     color: #FFF;
     text-align: center;
@@ -35,6 +40,10 @@ li {
     background-color: #FD6E0A;
     border-radius: 5px;
     border: 0;
+}
+
+.btn-download:hover {
+    background-color: #ce5600;
 }
 
 .sec-tittle {
@@ -59,7 +68,7 @@ li {
     background-color: #FFF8F3;
     background-image: url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position:bottom left;
+    background-position: bottom left;
     margin-bottom: 130px;
 }
 
@@ -82,6 +91,10 @@ li {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+}
+
+.navigation ul li a:hover {
+    color: #FD6E0A;
 }
 
 .navigation h2 {
@@ -141,6 +154,11 @@ li {
     font-size: 20px;
     background-color: #FFF8F3;
     font-weight: 700;
+}
+
+.contact-btn:hover {
+    background-color: #FD6E0A;
+    color: #fff;
 }
 
 .hardy {
@@ -284,8 +302,13 @@ section {
     margin-top: 30px;
 }
 
+.social-icons ul li a img:hover{
+    background-color: #fd6f0a42;
+    border-radius:5px;
+}
+
 /* contact form */
-.footer{
+.footer {
     background-color: #FFF8F3;
     display: flex;
     justify-content: center;
@@ -293,8 +316,9 @@ section {
     padding: 130px 0;
 }
 
-.contact-form input[type="text"], input[type="email"],
-textarea{
+.contact-form input[type="text"],
+input[type="email"],
+textarea {
     display: block;
     border: 0;
     color: #757575;
@@ -306,5 +330,13 @@ textarea{
     margin-bottom: 25px;
     font-family: Open Sans;
     border-radius: 5px;
+    outline: none;
 }
 
+ input:hover{
+    background-color: #fd6f0a21;
+}
+
+textarea:hover{
+    background-color: #fd6f0a21;
+}
