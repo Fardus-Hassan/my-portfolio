@@ -42,10 +42,11 @@ li {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .sec-dec {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -59,6 +60,7 @@ li {
     background-image: url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom left;
+    margin-bottom: 130px;
 }
 
 /* nav */
@@ -147,7 +149,27 @@ li {
 
 /* main */
 
-main{
+main {
     padding: 0 230px;
 }
-.about-sec {}
+
+.about-sec {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 155px;
+}
+
+.about-dec{
+    margin-bottom: 30px;
+}
+
+.about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+
+section{
+    margin-bottom: 130px;
+}
