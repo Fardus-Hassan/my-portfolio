@@ -253,11 +253,33 @@ section {
 }
 
 .deg-name {
-    color:#474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
 }
 
-.resume-btn{
+.download-cv {
     text-align: center;
 }
+
+/* footer */
+
+.contact-tittle {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contact-dec {
+    color:#474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.social-icons ul{
+    display: flex;
+    gap: 25px;
+}
+
+/* contact form */
