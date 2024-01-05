@@ -59,7 +59,7 @@ li {
     background-color: #FFF8F3;
     background-image: url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position:bottom left;
     margin-bottom: 130px;
 }
 
@@ -268,18 +268,43 @@ section {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 25px;
 }
 
 .contact-dec {
-    color:#474747;
+    color: #474747;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 }
 
-.social-icons ul{
+.social-icons ul {
     display: flex;
     gap: 25px;
+    margin-top: 30px;
 }
 
 /* contact form */
+.footer{
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 130px 0;
+}
+
+.contact-form input[type="text"], input[type="email"],
+textarea{
+    display: block;
+    border: 0;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 18px 0 18px 30px;
+    width: 460px;
+    margin-bottom: 25px;
+    font-family: Open Sans;
+    border-radius: 5px;
+}
+
