@@ -345,6 +345,6 @@ textarea:hover {
 }
 
 input[type="text"]:focus{
-    border:1px solid #FD6E0A;
+    border:1.5px solid #FD6E0A;
     outline: none;
 }
